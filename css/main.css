@@ -6,6 +6,10 @@
 /* Prata */
 /* font-family: "Prata", serif; */
 
+/* background: #FAFAFB;
+background: linear-gradient(90deg,rgba(250, 250, 251, 1) 0%,
+rgba(178, 195, 249, 0.15) 74%, rgba(107, 140, 243, 1) 100%); */
+
 /* 초기화 */
 * {
   margin: 0px;
@@ -25,7 +29,13 @@ body {
   font-family: 'Pretendard Variable', sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
-  background-color: #212121;
+  background: #6b8cf3;
+  background: linear-gradient(
+    90deg,
+    rgba(107, 140, 243, 0.14) 0%,
+    rgba(178, 195, 249, 0.15) 74%,
+    rgba(250, 250, 251, 0.15) 100%
+  );
   color: #fff;
 }
 /*img, iframe{vertical-align: top;}*/
