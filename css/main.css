@@ -48,7 +48,7 @@ iframe {
   margin: 0px auto;
 }
 a {
-  color: #fff;
+  color: #111111;
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: 600;
@@ -613,7 +613,7 @@ button {
 footer {
   text-align: center;
   padding: 40px;
-  background-color: #000;
+  background-color: #e63939;
 }
 
 /* 특정 스크롤 값에서 맨위로가기 버튼이 보였다 안보였다 설정 디자인 */
