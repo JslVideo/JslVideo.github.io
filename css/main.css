@@ -613,7 +613,7 @@ button {
 footer {
   text-align: center;
   padding: 40px;
-  background-color: #e63939;
+  background-color: #333;
 }
 
 /* 특정 스크롤 값에서 맨위로가기 버튼이 보였다 안보였다 설정 디자인 */
