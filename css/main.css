@@ -38,12 +38,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   background: #6b8cf3;
-  background: linear-gradient(
-    90deg,
-    rgba(107, 140, 243, 0.14) 0%,
-    rgba(178, 195, 249, 0.15) 74%,
-    rgba(250, 250, 251, 0.15) 100%
-  );
+  background: linear-gradient(90deg, rgba(107, 140, 243, 0.14) 0%, rgba(178, 195, 249, 0.15) 74%, rgba(250, 250, 251, 0.15) 100%);
   color: #111;
 }
 /*img, iframe{vertical-align: top;}*/
@@ -250,6 +245,7 @@ header {
 }
 .card-detail .long-btns {
   display: flex;
+  justify-content: center;
 }
 .card-detail .long-btns > a {
   color: #212121;
@@ -261,9 +257,6 @@ header {
   padding: 0px 25px;
   border-radius: 32px;
   font-style: italic;
-}
-.card-detail .long-btns > a:first-child {
-  margin-right: 20px;
 }
 .card-detail .long-btns > a:hover,
 .card-detail .long-btns > a:focus {
